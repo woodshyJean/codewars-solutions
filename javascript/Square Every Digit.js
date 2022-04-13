@@ -8,9 +8,14 @@ Note: The function accepts an integer and returns an integer
 
 function squareDigits(num){
   var number = num.toString().split('');
-  var fin= ""
+  var fin = ""
   for(i=0; i<number.length;i++){
     fin += (number[i]**2).toString();
   }
   return Number(fin);
 }
+
+
+
+
+
