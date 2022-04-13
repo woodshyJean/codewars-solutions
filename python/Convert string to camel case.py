@@ -4,9 +4,9 @@ also often referred to as Pascal case).
 
 Examples
 "the-stealth-warrior" gets converted to "theStealthWarrior"
-"The_Stealth_Warrior" gets converted to "TheStealthWarrior" '''
+"The_Stealth_Warrior" gets converted to "TheStealthWarrior" 
 
-////////////////////////////////// solution ///////////////////////////
+////////////////////////////////// solution /////////////////////////// '''
 
 def to_camel_case(text):
     t2 = text.replace('_','-').split('-')
